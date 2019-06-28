@@ -92,7 +92,10 @@ ui <- fluidPage(
                                      "beteg ténylegesen); ez lehet például a betegség prevalenciája. A prediktív érték ",
                                      "a klinikailag fontos mutató: azt mondja meg, hogy ha a lelet pozitív akkor mekkora ",
                                      "valószínűséggel beteg tényleg az alany (pozitív prediktív érték), illetve ha a lelet ",
-                                     "negatív, akkor mekkora valószínűséggel egészséges tényleg (negatív prediktív érték).") ),
+                                     "negatív, akkor mekkora valószínűséggel egészséges tényleg (negatív prediktív érték). ",
+                                     "Részletesebb leírás a címsor alatti linken, vagy " ),
+                             a( "ezen", href = "http://www.interpressmagazin.hu/cikkek/163-az_orvoslas_tevedesei_6__resz",
+                                target = "_blank" ), " cikk elején érhető el." ),
                           plotOutput( "resultPlot" ) ),
                 tabPanel( "Számszerű adatok", tableOutput( "resultTable" ) )
             )
