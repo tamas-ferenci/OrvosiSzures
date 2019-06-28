@@ -2,6 +2,7 @@
 * [A program használata](#a-program-használata)
 * [Megjegyzések](#megjegyzések)
 * [Verziótörténet](#verziótörténet)
+* [Kiegészítő gondolatok az orvosi döntéshozatal, diagnosztika kapcsán](#kiegészítő-gondolatok-az-orvosi-döntéshozatal-diagnosztika-kapcsán)
 
 # Bevezetés és motiváció
 
@@ -70,7 +71,7 @@ A feltételes valószínűség tipikus alkalmazása során a feltétel valami ol
 
 ## Problémák a szenzitivitással és specificitással (és jónéhány társukkal)
 
-A szenzitivitás és a specificitás egyaránt feltételes valószínűség: *feltéve* hogy az alanyunk beteg, mekkora valószínűséggel pozitív a teszt; *feltéve*, hogy az alanyunk egészséges, mekkora valószínűséggel negatív. A korábban látott magyarázat talán értelmessé teszi ezeket a mutatókat, de ha jobban meggondoljuk, akkor valójában ezek nagyon is furcsák: arra feltételeznek, amit *nem tudunk*, és annak a valószínűségét kérdezzük meg, amit meg pontosan *tudunk*, kérdezés nélkül is\dots{}! Mintha reggel 8 előtt kilépve az ajtón, nem azt kérdeznénk, hogy feltéve, hogy 8 előtt elindultam, mekkora valószínűséggel fogom elérni a buszt, hanem azt, hogy ha elérem a buszt, akkor mekkora valószínűséggel indultam el 8 előtt\dots{}
+A szenzitivitás és a specificitás egyaránt feltételes valószínűség: *feltéve* hogy az alanyunk beteg, mekkora valószínűséggel pozitív a teszt; *feltéve*, hogy az alanyunk egészséges, mekkora valószínűséggel negatív. A korábban látott magyarázat talán értelmessé teszi ezeket a mutatókat, de ha jobban meggondoljuk, akkor valójában ezek nagyon is furcsák: arra feltételeznek, amit *nem tudunk*, és annak a valószínűségét kérdezzük meg, amit meg pontosan *tudunk*, kérdezés nélkül is...! Mintha reggel 8 előtt kilépve az ajtón, nem azt kérdeznénk, hogy feltéve, hogy 8 előtt elindultam, mekkora valószínűséggel fogom elérni a buszt, hanem azt, hogy ha elérem a buszt, akkor mekkora valószínűséggel indultam el 8 előtt...
 
 A probléma tehát a szenzitivitással és a specificitással, hogy *megfordítják az információáramlás irányát*, pont fordítva feltételeznek, mint ami értelmes lenne: arra feltételeznek, amit *nem* ismerünk, szemben azzal, amit az előző pontban kifejtettünk. Minket nem az érdekel, hogy feltéve, hogy az alany beteg, mekkora valószínűséggel pozitív a tesztje, hanem az, hogy feltéve, hogy pozitív a tesztje, mekkora valószínűséggel beteg! Ez felel meg a tényleges információáramlásnak.
 
