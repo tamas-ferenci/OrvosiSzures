@@ -20,9 +20,9 @@ ui <- fluidPage(
         tags$meta( property = "og:type", content = "website" ),
         tags$meta( property = "og:locale", content = "hu_HU" ),
         tags$meta( property = "og:url",
-                   content = "http://research.physcon.uni-obuda.hu/OrvosiSzures/" ),
+                   content = "https://research.physcon.uni-obuda.hu/OrvosiSzures/" ),
         tags$meta( property = "og:image",
-                   content = "http://research.physcon.uni-obuda.hu/OrvosiSzures_Pelda.png" ),
+                   content = "https://research.physcon.uni-obuda.hu/OrvosiSzures_Pelda.png" ),
         tags$meta( property = "og:description", content = paste0( "Egészségügyi szűrőprogramok, orvosi tesztek ",
                                                                   "eredményességének vizsgálatát lehetővé tevő alkalmazás. ",
                                                                   "Írta: Ferenci Tamás." ) ),
@@ -32,7 +32,7 @@ ui <- fluidPage(
         tags$meta( name = "DC.Description", content = paste0( "Egészségügyi szűrőprogramok, orvosi tesztek ",
                                                               "eredményességének vizsgálatát lehetővé tevő alkalmazás. " ) ),
         tags$meta( name = "DC.Publisher",
-                   content = "http://research.physcon.uni-obuda.hu/OrvosiSzures/" ),
+                   content = "https://research.physcon.uni-obuda.hu/OrvosiSzures/" ),
         tags$meta( name = "DC.Contributor", content = "Ferenci Tamás" ),
         tags$meta( name = "DC.Language", content = "hu_HU" )
     ),
@@ -54,7 +54,7 @@ ui <- fluidPage(
        a( "itt", href = "https://github.com/tamas-ferenci/OrvosiSzures",
           target = "_blank" ), "olvashatóak el." ),
     div( class="fb-like",
-         "data-href"="http://research.physcon.uni-obuda.hu/OrvosiSzures/",
+         "data-href"="https://research.physcon.uni-obuda.hu/OrvosiSzures/",
          "data-layout"="standard", "data-action"="like", "data-size"="small",
          "data-show-faces"="true", "data-share"="true"), p(),
     
@@ -208,7 +208,7 @@ server <- function(input, output, session) {
                 } )
         }), ncol = 2 ) )
         grid::grid.text( "Ferenci Tamás, 2019", 0, 0.02, gp = grid::gpar( fontface = "bold" ), just = "left" )
-        grid::grid.text( "http://research.physcon.", 1, 0.06, gp = grid::gpar( fontface = "bold" ), just = "right" )
+        grid::grid.text( "https://research.physcon.", 1, 0.06, gp = grid::gpar( fontface = "bold" ), just = "right" )
         grid::grid.text( "uni-obuda.hu", 1, 0.02, gp = grid::gpar( fontface = "bold" ), just = "right" )
     }
     

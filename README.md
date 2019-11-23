@@ -106,3 +106,9 @@ Egyetlen kérdést kell még lezárnunk. Addig rendben van, hogy valószínűsé
 De ettől eltekintve teljesen jogos az észrevétel, azonban egy dolgot nagyon tisztán kell látnunk: ez már egy *másik* probléma! A statisztikai probléma ott végetér, hogy megmondjuk, hogy 83%-ra becsüljük a betegség fennállásának a valószínűségét. Az, hogy a 83% elég nagy-e ahhoz, hogy kezelést kezdjünk, más vizsgálatot rendeljünk stb., már *nem* statisztikai kérdés, és nem is *lehet* az, ennek eldöntéséhez ugyanis egy teljesen más információval kell rendelkeznünk: azzal, hogy milyen kockázatai vannak a kezelés vagy további vizsgálat szükségtelen megkezdésének, és milyen kockázatai vannak a szükséges kezelés vagy további vizsgálat meg nem kezdésének! Azaz kockázat/haszon adatokra van szükségünk; ez tehát már nem statisztikai, hanem döntéselméleti probléma! Kockázat/haszon adatok nélkül elvileg is lehetetlen választ adni a kérdésre, ami abból is látszik, hogy *ugyanaz* a 83% jelentheti azt is, hogy megkezdjük a kezelést (ha annak elmaradása nagy kockázatú, pontosabban szólva: nagy kockázatú, a feleslegesen végzett kezelés kockázatához képest), és azt is, hogy nem kezdjünk meg (olyan esetben, amikor a feleslegesen végzett kezelés nagyobb kockázatú, mint az indokolt kezelés elhagyása).
 
 Összefoglalva tehát: a két részt *szét kell csatolni*. Az az *egyik* probléma, hogy az alany mekkora valószínűséggel szenved adott betegségben, és az egy *ettől független, másik* probléma, hogy ezen valószínűség fényében betegnek minősítsük-e, és megkezdjük-e a kezelését, vagy tegyünk-e egyéb lépést. Ez utóbbi nem statisztikai kérdés, mert csak a kockázatok és hasznok fényében válaszolható meg.
+
+<!-- ## Egy részletesen végigvitt esettanulmány
+
+A helyes módszer a második rész, a döntéselméleti probléma megoldására, hogy azonosítjuk a lehetséges kimeneteket, 
+
+Nézzünk egy konkrét példát, hogy jobban érthető legyen a gondolat. Tegyük fel, hogy -->
